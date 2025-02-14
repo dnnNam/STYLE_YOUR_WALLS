@@ -1,0 +1,418 @@
+/* reset css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  /*10px*/
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+/* BUILD */
+.container {
+  max-width: 132rem;
+  min-width: 132rem;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+  background-color: #fafafa;
+  padding: 0;
+}
+
+.headerblock {
+  width: 100%;
+  height: 12.16rem;
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  white-space: nowrap;
+  padding-right: 2%;
+}
+
+.headerelementleft {
+  width: 50%;
+  min-width: 30rem;
+  height: 4rem;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+
+.headerelementmodifier {
+  font-size: 3rem;
+  font-family: "Didot", "Bodoni MT", serif;
+  text-decoration: none;
+  color: #292f2f;
+}
+
+.headerelementright {
+  width: 50%;
+  min-width: 30rem;
+  height: 6rem;
+  /* border: 1px solid orange; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.linkelement {
+  width: 70%;
+}
+
+.nav {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 5rem;
+}
+
+.navlinks {
+  text-decoration: none;
+  color: #2f2e2e;
+}
+
+.iconelement {
+  width: 30%;
+  /* border: 1px solid yellowgreen; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.loginmodifier {
+  text-decoration: none;
+  color: #fcb08c;
+}
+
+.iconLogin-modifier {
+  color: #fcb08c;
+}
+
+.iconCart-modifier {
+  color: #fcb08c;
+}
+
+.loginelement {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* --------------------------------------------- */
+
+/* block cha của 2 thằng block 1 và block 2 */
+.block_father {
+  background-image: url("https://static.wixstatic.com/media/f61af8_e43a10081f754bd399d82f5c16b96f9b~mv2.png/v1/fill/w_1021,h_800,al_c,q_90,enc_auto/f61af8_e43a10081f754bd399d82f5c16b96f9b~mv2.png");
+  display: flex;
+  height: 80rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* border: 2px solid blueviolet; */
+  padding: 12rem 9rem;
+}
+
+/* Block 1 */
+.block_1 {
+  width: 60%;
+  /* background-color: blue; */
+  /* border: 2px solid palevioletred; */
+  padding-right: 8%;
+  padding-left: 10%;
+}
+/* title */
+.h1_fa {
+  font-family: "Playfair Display";
+  font-size: 5.5rem;
+  font-weight: 50;
+  color: black;
+}
+/* content 1 */
+.content_1 {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.in_content_1 {
+  color: black;
+  font-family: "Playfair Display";
+}
+.in_content_2 {
+  color: black;
+  font-family: "Playfair Display";
+}
+/* line_spec */
+.line_spec {
+  font-weight: 700;
+  color: black;
+}
+/* social media */
+.socialnetwork {
+  display: flex;
+  justify-content: space-between;
+  width: 8rem;
+  margin-top: 2rem;
+}
+.socialnetwork a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+/* Block 2 */
+.block_2 {
+  width: 32%;
+  /* background-color: rgb(252, 176, 140); */
+  /* border: 2px solid palevioletred; */
+  padding-top: 7rem;
+}
+
+/* label của input */
+.label_firstName {
+  color: black;
+  font-family: "Playfair Display";
+}
+
+.label_lastName {
+  color: black;
+  font-family: "Playfair Display";
+}
+
+.label_email {
+  color: black;
+  font-family: "Playfair Display";
+}
+
+.label_phone {
+  color: black;
+  font-family: "Playfair Display";
+}
+
+.label_textarea {
+  color: black;
+  font-family: "Playfair Display";
+}
+
+/* input */
+.firstname {
+  width: 16rem;
+  height: 4rem;
+  font-size: 1.6rem;
+  border-radius: 0;
+  border: 0.5px solid black;
+  background-color: transparent;
+  font-family: "Playfair Display";
+}
+
+.firstname:focus {
+  box-shadow: none;
+  outline: none;
+  outline-offset: none;
+  background-color: transparent;
+  border: 0.5px solid black;
+}
+
+.lastname {
+  width: 16rem;
+  height: 4rem;
+  font-size: 1.6rem;
+  border-radius: 0;
+  border: 0.5px solid black;
+  background-color: transparent;
+  font-family: "Playfair Display";
+}
+.lastname:focus {
+  box-shadow: none;
+  outline: none;
+  outline-offset: none;
+  background-color: transparent;
+  border: 0.5px solid black;
+}
+
+.email {
+  width: 36rem;
+  height: 4rem;
+  font-size: 1.6rem;
+  border-radius: 0;
+  border: 0.5px solid black;
+  background-color: transparent;
+  font-family: "Playfair Display";
+}
+
+.email:focus {
+  box-shadow: none;
+  outline: none;
+  outline-offset: none;
+  background-color: transparent;
+  border: 0.5px solid black;
+}
+
+.phone {
+  width: 36rem;
+  height: 4rem;
+  font-size: 1.6rem;
+  border-radius: 0;
+  border: 0.5px solid black;
+  background-color: transparent;
+  font-family: "Playfair Display";
+}
+.phone:focus {
+  box-shadow: none;
+  outline: none;
+  outline-offset: none;
+  background-color: transparent;
+  border: 0.5px solid black;
+}
+
+.textarea {
+  width: 36rem;
+  font-size: 1.6rem;
+  border-radius: 0;
+  border: 0.5px solid black;
+  background-color: transparent;
+  font-family: "Playfair Display";
+  min-height: 11rem;
+  max-height: 12rem;
+}
+
+.textarea:focus {
+  box-shadow: none;
+  outline: none;
+  outline-offset: none;
+  background-color: transparent;
+  border: 0.5px solid black;
+}
+/* custom Button */
+.btn-fa {
+  padding-left: 68%;
+}
+
+.btn_style {
+  font-family: "Playfair Display";
+  border-radius: 0;
+  width: 11rem;
+  height: 3.8rem;
+  font-size: 1.7rem;
+}
+
+/* body-map */
+.body-map {
+  margin: 0 auto;
+  border: 2px solid black;
+  height: 42rem;
+  margin-top: 0rem;
+  border-radius: 1rem;
+  /* box-shadow: 3px 3px 3px #695e5e; */
+}
+
+/* footer *
+/* cuối cùng --------------------------------------------------------------------------------------------- */
+/* cuối cùng --------------------------------------------------------------------------------------------- */
+
+.footer__block {
+  width: 100%;
+  height: 37.9rem;
+  /* border: 1px solid green; */
+}
+
+.footer__element {
+  width: 75%;
+  height: 30rem;
+  /* border: 1px solid green; */
+  margin: 5rem auto;
+  padding-top: 3rem;
+}
+
+.footer__text {
+  font-size: 1.6rem;
+  color: #2f2e2e;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+}
+
+.email__element {
+  width: 48rem;
+  height: 4.16rem;
+  margin: 0 auto;
+}
+
+.form-control {
+  height: 4rem;
+  border-radius: 0;
+  border: 1px solid black;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border: 1px solid black;
+}
+
+.form-label {
+  color: #2f2e2e;
+  font-family: "Playfair Display", serif;
+}
+
+/* phần check và submit */
+.submit__block {
+  margin: 5rem auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 20rem;
+  /* border: 1px solid black; */
+}
+
+.btn-subcribe {
+  width: 10.8rem;
+  height: 4rem;
+  border: none;
+  background-color: #f8a888;
+}
+
+.btn-subcribe:hover {
+  width: 10.8rem;
+  height: 4rem;
+  border: none;
+  background-color: #f8a888ae;
+}
+
+.form-check-label {
+  color: #2f2e2e;
+  font-family: "Playfair Display", serif;
+}
+
+.form-check-input {
+  border-radius: 0%;
+  border: 1px solid black;
+}
+
+.form-check-input:focus {
+  border: 1px solid black;
+  box-shadow: none;
+  border-radius: 0%;
+}
+/* các icon */
+.totalIcon__block {
+  width: 40%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-around;
+  padding: 0 15rem;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+}
+
+.last__para {
+  color: #292f2f;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  font-size: 1.4rem;
+  margin-top: 2rem;
+}

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- link cho font chữ  -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allura&family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+      integrity="sha256-5uKiXEwbaQh9cgd2/5Vp6WmMnsUr3VZZw0a8rKnOKNU="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style-shop.css" />
+    <title>Shop</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- phần header -->
+      <div class="header__block">
+        <div class="header__element__left">
+          <a class="header__element__modifier">POSTER GAL</a>
+        </div>
+
+        <div class="header__element__right">
+          <div class="link__element">
+            <ul class="nav">
+              <li class="nav__item"><a href="" class="nav__links">Home</a></li>
+              <li class="nav__item"><a href="" class="nav__links">Shop</a></li>
+              <li class="nav__item"><a href="" class="nav__links">About</a></li>
+              <li class="nav__item">
+                <a href="" class="nav__links">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="icon__element">
+            <div class="login__element">
+              <a href=""><i class="fa-solid fa-user iconLogin-modifier"></i></a>
+              <a href="" class="login__modifier">login</a>
+            </div>
+            <div class="cart__element">
+              <a href=""
+                ><i
+                  class="fa-sharp fa-solid fa-bag-shopping iconCart-modifier"
+                ></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- phần desc Page -->
+      <div class="allProduct__block">
+        <span class="linkHome__element"
+          ><a href="" class="linkHome__modifier">Home</a></span
+        >
+        <span class="homeIcon__element"
+          ><i class="fa-solid fa-chevron-right iconHome__modifier"></i
+        ></span>
+        <span class="decsPage__modifier">allProduct</span>
+      </div>
+
+      <!-- phần quản lý sản phẩm của các page-->
+      <div class="totalPage__block">
+        <div class="navTab__block">
+          <span class="browse__modifier">Browse by</span>
+          <div class="hr__block">
+            <hr class="hr__modifier" />
+          </div>
+
+          <div class="navTab__element">
+            <button type="button" class="btn__navTab allProduct" id="1">
+              All Product
+            </button>
+            <button type="button" class="btn__navTab freedom" id="2">
+              Freedom Collection
+            </button>
+            <button type="button" class="btn__navTab prickly" id="3">
+              Prickly Collection
+            </button>
+            <button type="button" class="btn__navTab tropical" id="4">
+              Tropical Collection
+            </button>
+          </div>
+
+          <div class="filter__block">
+            <span class="browse__modifier">Filter By</span>
+            <div class="hr__block">
+              <hr class="hr__modifier" />
+            </div>
+
+            <div class="priceTitle__taskBar">
+              <span class="Price__Title">Price</span>
+              <button class="PriceButton__modifier">+</button>
+            </div>
+
+            <div class="filter__taskBar">
+              <div class="filter__section">
+                <div class="progress"></div>
+                <div class="range-input">
+                  <input
+                    type="range"
+                    class="range-min"
+                    min="0"
+                    max="35"
+                    step="1"
+                    value="0"
+                  />
+
+                  <input
+                    type="range"
+                    class="range-max"
+                    min="0"
+                    max="35"
+                    step="1"
+                    value="35"
+                  />
+                </div>
+
+                <div class="range-text">
+                  <div class="text-min">O$</div>
+                  <div class="text-max">35.00$</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="hr__block">
+              <hr class="hr__modifier" />
+            </div>
+
+            <div class="priceTitle__taskBar">
+              <span class="Color__Title">Color</span>
+              <button class="ButtonColor__modifier">+</button>
+            </div>
+
+            <div class="optionColors">
+              <button class="color lightgreen" id="lightgreen"></button>
+              <button class="color green" id="green"></button>
+              <button class="color lightBlue" id="lightBlue"></button>
+              <button class="color pink" id="pink"></button>
+              <button class="color red" id="red"></button>
+              <button class="color white" id="white"></button>
+            </div>
+
+            <div class="hr__block">
+              <hr class="hr__modifier__last" />
+            </div>
+          </div>
+        </div>
+        <!-- hiển thị các sản phẩm -->
+        <!-- trang allProduct-->
+        <div class="page__block">
+          <!-- phần header -->
+          <div class="pageTitle__element">
+            <h1 class="pageTitle__modifier">All Product</h1>
+          </div>
+          <!-- thanh menu -->
+          <div class="descAmount__element">
+            <span class="amount__modifier">9 Product</span>
+
+            <div class="sortMenu__element">
+              <div class="select-btn">
+                <span class="sBtn-text">Sort by: Recommended</span>
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+
+              <ul class="options">
+                <li class="option" id="re">Recommeded</li>
+                <li class="option" id="lth">Price(low to high)</li>
+                <li class="option" id="htl">Price(high to low)</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- phần trưng bày sản phẩn -->
+          <div class="product__block">
+            <div class="product__element"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__block">
+        <div class="footer__element">
+          <p class="footer__text">
+            Subscribe and stay on top of our latest news and promotions
+          </p>
+          <form novalidate>
+            <div class="mb-3 email__element">
+              <label for="email" class="form-label">Email*</label>
+              <input type="email" id="email" class="form-control" />
+            </div>
+            <div class="submit__block">
+              <div class="mt-3 checkbox">
+                <input
+                  type="checkbox"
+                  value="true"
+                  class="form-check-input checkbox"
+                  id="checkbox"
+                />
+                <label for="checkbox" class="form-check-label"
+                  >Yes, subcribe me to your newsletter</label
+                >
+              </div>
+
+              <button class="btn-subcribe">Subcribe</button>
+            </div>
+          </form>
+          <div class="totalIcon__block">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          <p class="last__para">
+            © 2035 by Poster Gal. Powered and secured by Wix
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./page-shop.js"></script>
+</html>

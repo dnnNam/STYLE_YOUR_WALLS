@@ -1,0 +1,597 @@
+/* reset css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+/* code here  */
+
+.container {
+  max-width: 132rem;
+  min-width: 132rem;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+  background-color: #fafafa;
+  padding: 0;
+}
+
+.header__block {
+  width: 100%;
+  height: 12.16rem;
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  white-space: nowrap;
+  padding-right: 2%;
+}
+
+.header__element__left {
+  width: 50%;
+  min-width: 30rem;
+  height: 4rem;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+
+.header__element__modifier {
+  font-size: 3rem;
+  font-family: "Didot", "Bodoni MT", serif;
+  text-decoration: none;
+  color: #292f2f;
+}
+
+.header__element__right {
+  width: 50%;
+  min-width: 30rem;
+  height: 6rem;
+  /* border: 1px solid orange; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 5rem;
+}
+
+.link__element {
+  width: 70%;
+}
+
+/* các cái link */
+.nav {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 5rem;
+}
+
+.nav__links {
+  text-decoration: none;
+  color: #2f2e2e;
+}
+
+.icon__element {
+  width: 30%;
+  /* border: 1px solid yellowgreen; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 3rem;
+}
+
+.login__modifier {
+  text-decoration: none;
+  color: #fcb08c;
+  margin-left: 1rem;
+}
+
+.iconLogin-modifier {
+  color: #fcb08c;
+}
+
+.iconCart-modifier {
+  color: #fcb08c;
+}
+.login__element {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+/* ----------------------------------------------------------------------------------------------------------------------------- */
+/* chỉnh phần background */
+.background__block {
+  width: 100%;
+  height: 77.1rem;
+  /* border: 1px solid black; */
+  display: flex;
+}
+
+.background__element__left {
+  width: 59%;
+  height: 100%;
+  background-image: url("./picture/picture__one.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.background__element__right {
+  width: 50%;
+  height: 100%;
+  background: rgb(213, 234, 236);
+}
+
+.background__element__text {
+  width: 50%;
+  height: 58%;
+  /* border: 1px solid black; */
+  margin: 25% 15%;
+}
+
+.background__title__modifier {
+  width: 49.9%;
+  height: 2.86rem;
+  font-family: "Dancing Script", cursive;
+  font-size: 2.6rem;
+  color: #292f2f;
+  word-spacing: 0.5rem;
+  padding-top: 1.5rem;
+}
+
+.background__text__modifier {
+  width: 96%;
+  height: 33.2rem;
+  font-size: 7.5rem;
+  /* border: 1px solid red; */
+  font-family: "Playfair Display", serif;
+  color: #292f2f;
+}
+
+.button__modifier {
+  background-color: #fcb08c;
+  border: none;
+  width: 14rem;
+  height: 4rem;
+  font-family: "Playfair Display", serif;
+  color: #292f2f;
+}
+
+.button__modifier:hover {
+  background-color: #fcb08cc1;
+  transition: 0.3s;
+}
+/* --------------------------------------------------------------------------------------------------------------- */
+/* phần shipping wordwide */
+.shipping__block {
+  width: 100%;
+  height: 60rem;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-around;
+  padding: 0 10rem;
+  align-items: center;
+}
+
+.shipping__element__left {
+  /* border: 1px solid green; */
+  width: 40rem;
+  height: 38rem;
+  background-image: url("./picture/hinh2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.shipping__element__text {
+  width: 78%;
+  height: 58%;
+  background-color: #fff;
+  margin: 25% 10%;
+}
+/* chỉnh phần văn bản bên trái của shopping */
+.ShippingTitle__modifier {
+  font-size: 3rem;
+  color: #292f2f;
+  font-family: "Allura", "Great Vibes", cursive;
+  text-align: center;
+  display: block;
+  padding-top: 2rem;
+}
+
+.shippingText__modifier {
+  font-family: "Playfair Display", serif;
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+.shoppingLink__modifier {
+  text-decoration: line;
+  color: #292f2f;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  display: block;
+}
+/* bên phải */
+.shipping__element__right {
+  /* border: 1px solid green; */
+  width: 40rem;
+  height: 38rem;
+  background-image: url("./picture/hinh3.png");
+}
+
+.btn__orderNow {
+  width: 14.9rem;
+  height: 4rem;
+  background-color: #cceaea;
+  border: none;
+  font-size: 2rem;
+  font-family: "Playfair Display", serif;
+  margin: 0 auto;
+  display: block;
+}
+
+.btn__orderNow:hover {
+  background-color: #cceaeab6;
+  transition: 0.3s;
+}
+/* -------------------------------------------------------------------------------------------------------------------------- */
+/*freshPoster  */
+.freshPoster__block {
+  width: 100%;
+  height: 210rem;
+  /* border: 1px solid red; */
+  display: flex;
+}
+
+/* xử lí bên trái  ------------------------------------------------------------- */
+.freshPoster__element__left {
+  width: 50%;
+  height: 100%;
+  /* border: 1px solid yellowgreen; */
+}
+
+.freshPoster__element__text {
+  width: 42rem;
+  height: 26rem;
+  /* border: 1px solid red; */
+  margin: 25% 10%;
+}
+.fresh__title {
+  display: block;
+  color: #292f2f;
+  font-size: 6rem;
+  font-family: "Playfair Display", serif;
+  line-height: 1;
+}
+
+.poster__title {
+  display: block;
+  color: #292f2f;
+  font-size: 6rem;
+  font-family: "Playfair Display", serif;
+  line-height: 1;
+}
+
+.summer__title {
+  display: block;
+  font-size: 2.2rem;
+  color: #292f2f;
+  font-family: "Allura", "Great Vibes", cursive;
+}
+
+.freshPoster__para {
+  font-size: 1.6rem;
+  font-family: "Playfair Display", serif;
+  color: #292f2f;
+  line-height: 1.6;
+}
+/* phần goodvibes */
+.goodVibes__block {
+  width: 54.8rem;
+  height: 64.8rem;
+  /* border: 1px solid green; */
+  background-color: #cceaea;
+  margin-bottom: 10rem;
+}
+
+.goovibes__element__img {
+  width: 44.8rem;
+  height: 50rem;
+  /* border: 1px solid orange; */
+  background-image: url("./picture/hinh4.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.link__tropicalCollection {
+  display: block;
+}
+
+.tropicalCollection__modifier {
+  display: block;
+  text-align: center;
+  font-size: 2.4rem;
+  color: #292f2f;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 0.8rem;
+}
+
+.PosterLink__modifier {
+  text-decoration: line;
+  color: #292f2f;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  display: block;
+  margin-top: 1.5rem;
+}
+
+/* familyTree */
+
+.familyTree__block {
+  width: 54.8rem;
+  height: 64.8rem;
+  border: 0.4rem solid #292f2f;
+  margin-top: 10rem;
+}
+
+.familyTree__element__img {
+  width: 44.8rem;
+  height: 50rem;
+  /* border: 1px solid orange; */
+  background-image: url("./picture/hinh5.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.link__pricklyCollection {
+  display: block;
+}
+
+.pricklyCollection__modifier {
+  display: block;
+  text-align: center;
+  font-size: 2.4rem;
+  color: #292f2f;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 0.8rem;
+  text-decoration: none;
+}
+
+/* xử lí phần bên phải ----------------------------------------------------------------- */
+
+.freshPoster__element__right {
+  width: 50%;
+  height: 100%;
+  /* border: 1px solid hotpink; */
+}
+
+.float__element {
+  width: 48.5rem;
+  height: 49.2rem;
+  margin: 20% 10%;
+  background-image: url("./picture/hinh6.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+#splide-poster {
+  width: 48.5rem;
+  height: 49.2rem;
+  position: absolute;
+  top: 10%;
+  left: 15%;
+}
+
+#splide-poster .splide__slide {
+  width: 100%; /* Đảm bảo mỗi slide chiếm toàn bộ chiều rộng */
+  height: 100%; /* Đảm bảo mỗi slide chiếm toàn bộ chiều cao */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Nếu có hình ảnh bên trong các slide */
+#splide-poster .splide__slide img {
+  width: 100%;
+  height: auto;
+}
+
+/* familyTree */
+
+.CoCo__block {
+  width: 54.8rem;
+  height: 64.8rem;
+  margin-top: 10rem;
+  background-color: #f5e5d6;
+}
+
+.CoCo__element__img {
+  width: 44.8rem;
+  height: 50rem;
+  /* border: 1px solid orange; */
+  background-image: url("./picture/hinh7.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.link__freedomCollection {
+  display: block;
+}
+
+.freedomCollection__modifier {
+  display: block;
+  text-align: center;
+  font-size: 2.4rem;
+  color: #292f2f;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 0.8rem;
+  text-decoration: none;
+}
+
+/* phần slides cuối cùng ------------------------------------------------------------------------------------------------------ */
+
+.lastSlide {
+  /* border: 1px solid red; */
+  width: 132rem;
+  height: 38.8rem;
+}
+
+.titleSlides__modifier {
+  padding-top: 2rem;
+  font-size: 3rem;
+  font-family: "Playfair Display", serif;
+  color: #292f2f;
+  text-align: center;
+}
+
+.card-carousel {
+  width: 100%;
+  height: 23.8rem;
+  /* border: 1px solid hotpink; */
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.card__block {
+  width: 100%;
+  height: 100%;
+}
+
+.img__modifier {
+  display: block;
+  overflow: hidden;
+  object-fit: cover; /* Giữ tỷ lệ hình ảnh mà không bị cắt */
+  aspect-ratio: 16 / 9; /* Tỉ lệ 16:9 như bạn mong muốn */
+}
+
+.splide__slide {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+#splide-demo {
+  height: 23.8rem;
+  width: 100%;
+}
+
+/* cuối cùng --------------------------------------------------------------------------------------------- */
+
+.footer__block {
+  width: 100%;
+  height: 37.9rem;
+  /* border: 1px solid green; */
+  padding-top: 5rem;
+}
+
+.footer__element {
+  width: 75%;
+  height: 30rem;
+  /* border: 1px solid green; */
+  margin: 5rem auto;
+  padding-top: 3rem;
+}
+
+.footer__text {
+  font-size: 1.6rem;
+  color: #2f2e2e;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+}
+
+.email__element {
+  width: 48rem;
+  height: 4.16rem;
+  margin: 0 auto;
+}
+
+.form-control {
+  height: 4rem;
+  border-radius: 0;
+  border: 1px solid black;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border: 1px solid black;
+}
+
+.form-label {
+  color: #2f2e2e;
+  font-family: "Playfair Display", serif;
+}
+
+/* phần check và submit */
+.submit__block {
+  margin: 5rem auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 20rem;
+  /* border: 1px solid black; */
+}
+
+.btn-subcribe {
+  width: 10.8rem;
+  height: 4rem;
+  border: none;
+  background-color: #f8a888;
+}
+
+.btn-subcribe:hover {
+  width: 10.8rem;
+  height: 4rem;
+  border: none;
+  background-color: #f8a888ae;
+}
+
+.form-check-label {
+  color: #2f2e2e;
+  font-family: "Playfair Display", serif;
+}
+
+.form-check-input {
+  border-radius: 0%;
+  border: 1px solid black;
+}
+
+.form-check-input:focus {
+  border: 1px solid black;
+  box-shadow: none;
+  border-radius: 0%;
+}
+/* các icon */
+.totalIcon__block {
+  width: 40%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-around;
+  padding: 0 15rem;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+}
+
+.last__para {
+  color: #292f2f;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  font-size: 1.4rem;
+  margin-top: 2rem;
+}

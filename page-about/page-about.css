@@ -1,0 +1,269 @@
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+.container {
+    max-width: 132rem;
+    min-width: 132rem;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    background-color: #fafafa;
+    height: 130rem;
+    padding: 0;
+}
+
+/* header */
+.headerblock{
+    width: 100%;
+    height: 12.16rem;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    white-space: nowrap;
+    padding-right: 2%;
+}
+
+.headerelementleft{
+    width: 50%;
+    min-width: 30rem;
+    height: 4rem;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.headerelementmodifier{
+    font-size: 3rem;
+    font-family: "Didot", "Bodoni MT", serif;
+    text-decoration: none;
+    color: #292F2F;
+}
+
+.headerelementright{
+    width: 50%;
+    min-width: 30rem;
+    height: 6rem;
+    /* border: 1px solid orange; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.linkelement{
+    width: 70%;
+}
+
+
+/* các cái link */
+.nav{
+    /* border: 1px solid red;  */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navlinks{
+    text-decoration: none;
+    color: #2F2E2E;
+}
+
+.iconelement{
+    width: 30%;
+    /* border: 1px solid yellowgreen;  */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.loginmodifier{
+    text-decoration: none;
+    color: #FCB08C;
+}
+
+.iconLogin-modifier{
+    color: #FCB08C;
+}
+
+.iconCart-modifier{
+    color: #FCB08C;
+}
+.loginelement{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* body */
+.bodyBlock{
+    /* border: 2px solid green; */
+    display: flex;
+}
+
+/* body left */
+.body__element_left{
+    width: 50%;
+    overflow: hidden;
+}
+
+.body__element_left img{
+    display: block;
+    width: 100%;
+    height: 75rem;
+}
+/* body right */
+.body__element_right{
+    width: 50%;
+    background-color: rgb(204, 234, 234);
+    height: auto;
+    padding: 10rem 7rem;
+}
+
+.body__element_right_content{
+    /* border: 2px solid coral; */
+    height: 100%;
+    
+}
+
+.body__element_right_content_hello{
+    line-height: normal;
+    font-size: 4.5rem;
+    letter-spacing: normal;
+    font-family: "Qwitcher Grypen", cursive;
+    margin: 0;
+    color: rgb(41, 47, 47);
+}
+
+.body__element_right_content_hello_name{
+    line-height: normal;
+    font-size: 2.4rem;
+    font-family: "Playfair", serif;
+    letter-spacing: 0.2rem;
+    margin-bottom: 3rem;
+    color: rgb(41, 47, 47);
+}
+
+.body__element_right_content p{
+    margin-bottom: 3rem;
+    line-height: 1.6em;
+    font-size: 1.8rem;
+    font-family: "Playfair", serif;
+    color: rgb(41, 47, 47);
+};
+
+
+/* footer *
+/* cuối cùng --------------------------------------------------------------------------------------------- */
+/* cuối cùng --------------------------------------------------------------------------------------------- */
+
+.footer__block{
+    width: 100%;
+    height: 37.9rem;
+    /* border: 1px solid green; */
+}
+
+.footer__element{
+    width: 75%;
+    height: 30rem;
+    /* border: 1px solid green; */
+    margin: 5rem auto;
+    padding-top: 3rem;
+}
+
+.footer__text{
+    font-size: 1.6rem;
+    color:#2F2E2E;
+    font-family: 'Playfair Display', serif; 
+    text-align: center;
+}
+
+.email__element{
+    width: 48rem;
+    height: 4.16rem;
+    margin: 0 auto;
+}
+
+.form-control{
+    height: 4rem;
+    border-radius: 0;
+    border: 1px solid black;
+}
+
+.form-control:focus{
+    box-shadow: none;
+    border: 1px solid black;
+}
+
+.form-label{
+    color: #2F2E2E;
+    font-family: 'Playfair Display', serif; 
+}
+
+/* phần check và submit */
+.submit__block{
+    margin: 5rem auto ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0  20rem;
+    /* border: 1px solid black; */
+}
+
+.btn-subcribe{
+    width: 10.8rem;
+    height: 4rem;
+    border: none;
+    background-color: #F8A888;
+}
+
+.btn-subcribe:hover{
+    width: 10.8rem;
+    height: 4rem;
+    border: none;
+    background-color: #f8a888ae;
+}
+
+.form-check-label{
+    color: #2F2E2E;
+    font-family: 'Playfair Display', serif; 
+}
+
+.form-check-input{
+    border-radius: 0%;
+    border: 1px solid black;
+}
+
+.form-check-input:focus{
+    border: 1px solid black;
+    box-shadow: none;
+    border-radius: 0%;
+}
+/* các icon */
+.totalIcon__block{
+    width: 40%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    padding: 0 15rem;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+
+.last__para{
+    color: #292F2F;
+    font-family: 'Playfair Display', serif; 
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 2rem;
+}
